@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31F45C01974F386009C70DC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F45BF1974F386009C70DC /* Game.swift */; };
 		F375BEBC1973A1D300612FE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375BEBB1973A1D300612FE7 /* AppDelegate.swift */; };
 		F375BEBE1973A1D300612FE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375BEBD1973A1D300612FE7 /* ViewController.swift */; };
 		F375BEC11973A1D300612FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F375BEBF1973A1D300612FE7 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31F45BF1974F386009C70DC /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		F375BEB61973A1D300612FE7 /* Survival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Survival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F375BEBA1973A1D300612FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F375BEBB1973A1D300612FE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				F375BEBB1973A1D300612FE7 /* AppDelegate.swift */,
 				F375BEBD1973A1D300612FE7 /* ViewController.swift */,
 				F375BEBF1973A1D300612FE7 /* Main.storyboard */,
+				F31F45BF1974F386009C70DC /* Game.swift */,
 				F375BEC21973A1D300612FE7 /* Images.xcassets */,
 				F375BEB91973A1D300612FE7 /* Supporting Files */,
 			);
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F375BEBE1973A1D300612FE7 /* ViewController.swift in Sources */,
+				F31F45C01974F386009C70DC /* Game.swift in Sources */,
 				F375BEBC1973A1D300612FE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +399,7 @@
 				F375BED41973A1D400612FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F375BED51973A1D400612FE7 /* Build configuration list for PBXNativeTarget "SurvivalTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				F375BED71973A1D400612FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

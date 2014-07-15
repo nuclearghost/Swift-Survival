@@ -56,6 +56,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="U33-WW-td7"/>
+                    <connections>
+                        <outlet property="fireBtn" destination="uJI-dF-CNk" id="WC7-HY-SFM"/>
+                        <outlet property="fireProgress" destination="vAm-Xj-IfR" id="TXj-ap-BzD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQS-X6-pgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
