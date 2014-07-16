@@ -37,11 +37,13 @@ class ViewController: UIViewController, GameProtocol {
 
     @IBOutlet var fireBtn: UIButton
     @IBOutlet var fireProgress: UIProgressView
+    @IBOutlet var textView: UITextView
     
     @IBAction func btnTapped(sender: AnyObject) {
         print("Button Tapped")
         self.fireProgress.progress = 0.0;
         self.fireBtn.enabled = false;
+        self.textView.text = "The room is toasty \n\n\(self.textView.text)"
     }
 }
 
